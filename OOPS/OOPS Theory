@@ -1,0 +1,47 @@
+5 Types of Inheritance
+
+1.Single Inheritance
+2.MultiLevel Inheritance
+3.Hierarchical Inheritance
+4.Multiple Inheritance
+5.Hybrid Inheritance
+
+Sure. Here are the five types of inheritance in Java, explained in brief:
+
+**Single Inheritance**
+
+In single inheritance, a class inherits from only one other class. This is the most common type of inheritance in Java. For example, the `Car` class can inherit from the `Vehicle` class.
+
+**Multilevel Inheritance**
+
+In multilevel inheritance, a class inherits from another class, which in turn inherits from another class. This can be thought of as a chain of inheritance. For example, the `SportsCar` class can inherit from the `Car` class, which in turn inherits from the `Vehicle` class.
+
+**Hierarchical Inheritance**
+
+In hierarchical inheritance, there are multiple classes that inherit from the same parent class. This can create a tree-like structure, with the parent class at the top and the child classes at the bottom. For example, the `Car`, `Truck`, and `Motorcycle` classes can all inherit from the `Vehicle` class.
+
+**Multiple Inheritance**
+
+In multiple inheritance, a class inherits from multiple parent classes. Java does not support multiple inheritance directly. However, it can be achieved through the use of interfaces. For example, the `Animal` interface can be implemented by both the `Dog` and `Cat` classes.
+
+**Hybrid Inheritance**
+
+Hybrid inheritance is a combination of two or more of the above types of inheritance. For example, a class can inherit from a class that uses multilevel inheritance and implements an interface.
+
+
+
+Important Points Of Inheritance :- www.smartprogramming.ir
+
+® Inheritance is achieved by using “extends” keyword.
+
+e Every class has a super or say parent class i.e. Object class (but object
+class does not have any parent class)
+
+e Below does not take part in inheritance :
+
+= Constructors: A subclass inherits all the members (fields, methods, and
+nested classes) from its superclass. Constructors are not members, so they are not inherited by subclasses, but the constructor of the superclass can be
+invoked from the subclass.
+
+- Private members: A subclass does not inherit the private members of its parent class. However, if the superclass has public or protected methods
+(like getters and setters) for accessing its private fields, these can also be used by the subclass. -

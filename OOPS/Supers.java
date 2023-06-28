@@ -1,8 +1,8 @@
-package OOPS;
+// package OOPS;
 
-public class Supers {
+// public class Supers {
     
-}
-public class SupersA extends Supers {
+// }
+// public class SupersA extends Supers {
     
-}
+// }
